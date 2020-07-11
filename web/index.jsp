@@ -31,7 +31,7 @@
     <a href="登录.html">登录</a>
 </p>
   <p>
-    <a href="" target="_blank" class="links">注册</a>
+    <a href="">注册</a>
   </p>
   </main>
   </body>
