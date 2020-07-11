@@ -10,17 +10,27 @@
   <head>
     <title>欢迎来访~</title>
   </head>
-  <body>
+  <body background="gwc.jpg">
   <style>
-    p {
-      position: relative;
-      top: 20px;
-
+    body {
+      background-size: 100% 100%;
     }
+   h1{
+       text-align: center;
+       position: relative;
+     }
+   p{
+     text-align: center;
+     position: relative;
+   }
   </style>
   <h1>进入购物车请先登录/注册</h1>
-  <p>登录</p>
-  <p>注册</p>
+<p>
+    <a href="登录.html" target="_blank" class="links">登录</a>
+</p>
+  <p>
+    <a href="" target="_blank" class="links">注册</a>
+  </p>
 
   </body>
 </html>
