@@ -11,7 +11,16 @@
     <title>欢迎来访~</title>
   </head>
   <body>
-  <h1></h1>
+  <style>
+    p {
+      position: relative;
+      top: 20px;
+
+    }
+  </style>
+  <h1>进入购物车请先登录/注册</h1>
+  <p>登录</p>
+  <p>注册</p>
 
   </body>
 </html>
