@@ -17,6 +17,6 @@
         request.getRequestDispatcher("do.jsp").forward(request,response);
     }else{
         request.getSession().setAttribute("mrgss", "你的输入有误请你重新输入");
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("dl.jsp");
     }
 %>
