@@ -11,6 +11,7 @@
     <title>欢迎选购~</title>
   </head>
   <body background="gwc.jpg">
+  <form action="dl.jsp" method="post">
   <style>
     body {
       background-size: 100% 100%;
@@ -26,13 +27,18 @@
    }
   </style>
   <h1>进入购物车请先登录/注册</h1>
-  <main>
-<p>
-    <a href="登录.html" target="_blank" class="links">登录</a>
-</p>
+    <p>
+      <input type="submit" value="登录"/>
+    </p>
   <p>
     <a href="注册.html" target="_blank" class="links">注册</a>
   </p>
-  </main>
+  </form>
+  <%
+    String str=(String)request.getSession().getAttribute("mrgss");
+    if(str!=null){
+      out.print(str);
+    }
+  %>
   </body>
 </html>
