@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>欢迎来访~</title>
   </head>
   <body>
+  <h1></h1>
 
-  $END$
-  
+
   </body>
 </html>
