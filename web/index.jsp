@@ -20,17 +20,19 @@
        position: relative;
      }
    p{
+     font-family: Lobster, monospace;
      text-align: center;
      position: relative;
    }
   </style>
   <h1>进入购物车请先登录/注册</h1>
+  <main>
 <p>
-    <a href="登录.html" target="_blank" class="links">登录</a>
+    <a href="登录.html">登录</a>
 </p>
   <p>
     <a href="" target="_blank" class="links">注册</a>
   </p>
-
+  </main>
   </body>
 </html>
