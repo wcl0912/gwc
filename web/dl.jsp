@@ -5,6 +5,12 @@
   <meta charset="utf-8">
   <title>登录页面</title>
   <style type="text/css">
+    body {
+      background-image: url(dlbj.jpg);
+      background-position: left;
+      background-size: 100% 100% ;
+      position: relative;
+    }
     #head {
       height: 120px;
       width: 100%;
