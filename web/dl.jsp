@@ -5,14 +5,31 @@
   <meta charset="utf-8">
   <title>登录页面</title>
   <style type="text/css">
-
+    #head {
+      height: 120px;
+      width: 100%;
+      background-color: lightpink;
+      text-align: center;
+      position: relative;
+    }
     #foot {
       width: 100%;
       height: 126px;
       background-color: #B7CEFA;
       position: relative;
     }
-
+    <%--顶部--%>
+    .title {
+      color: #FFFFFF;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 36px;
+      height: 40px;
+      width: 30%;
+    }
+    <%--底部--%>
     .copyright {
       color: #FFFFFF;
       position: absolute;
@@ -49,6 +66,12 @@
   </style>
 </head>
 <body>
+
+<div class="header" id="head">
+  <div class="title">购物车登录</div>
+</div>
+
+
 <form action="scropp.jsp" method="post">
   <p>
     <label>用户名：</label><input type="text" name="uname"/>
