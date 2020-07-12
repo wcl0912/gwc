@@ -2,7 +2,51 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>登录页面</title>
+  <style type="text/css">
+
+    #foot {
+      width: 100%;
+      height: 126px;
+      background-color: #B7CEFA;
+      position: relative;
+    }
+
+    .copyright {
+      color: #FFFFFF;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 60px;
+      width: 40%;
+      text-align:center;
+    }
+
+    .copyright .img .icon {
+      width: 24px;
+      height: 24px;
+      margin-left: 22px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .copyright .img .icon1 {
+      width: 24px;
+      height: 24px;
+      margin-left: 22px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+    .copyright .img .icon2 {
+      width: 24px;
+      height: 24px;
+      margin-left: 22px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
 </head>
 <body>
 <form action="scropp.jsp" method="post">
@@ -22,5 +66,19 @@
     out.print(str);
   }
 %>
+
+<div class="footer" id="foot">
+  <div class="copyright">
+    <div class="img">
+      <i class="icon"></i><span>联系邮箱：1624811308@qq.com</span>
+    </div>
+    <div class="img">
+      <i class="icon1"></i><span>联系地址：安徽科技学院</span>
+    </div>
+    <div class="img">
+      <i class="icon2"></i><span>联系电话：17856279692</span>
+    </div>
+  </div>
+</div>
 </body>
 </html>
