@@ -10,7 +10,7 @@
     String uname= request.getParameter("uname");
     String pwd=request.getParameter("pwd");
     boolean flag=false;
-    if(uname.equals("ah")&&pwd.equals("123456")){
+    if(uname.equals("wcl")&&pwd.equals("123456")){
         flag=true;
     }
     if(flag){
