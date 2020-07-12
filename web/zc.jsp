@@ -29,7 +29,6 @@
         form label span {
             width:20%;
             display:inline-block;
-            font-family:"宋体";
             font-size:16px;
             text-align:right;
         }
