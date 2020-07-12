@@ -31,7 +31,7 @@
     <a href="dl.jsp" target="_blank" class="links">登录</a>
 </p>
   <p>
-    <a href="注册.html" target="_blank" class="links">注册</a>
+    <a href="zc.jsp" target="_blank" class="links">注册</a>
   </p>
   </main>
   </body>

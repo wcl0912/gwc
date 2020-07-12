@@ -16,7 +16,7 @@
   <head>
         <base href="<%=basePath%>">
         
-        <title>My JSP 'do.jsp' starting page</title>
+        <title>欢迎登陆购物车</title>
         
 
 
@@ -24,7 +24,7 @@
       </head>
   
   <body>
-   欢迎<%=request.getParameter("uname") %>登录
+   <h1>欢迎<%=request.getParameter("uname") %>登录</h1>
   </body>
 </html>
 
